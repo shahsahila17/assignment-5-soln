@@ -101,7 +101,7 @@ function buildAndShowHomeHTML (categories) {
       finalHtml += "<section class='row'>";
       for (var i = 0; i < chosenCategoryShortName.length; i++) {
         // Insert category values
-        var html = homeHtmlUrl;
+        var html = homeHtml;
         var short_name = categories[i].short_name;
         html =
           insertProperty(html,
